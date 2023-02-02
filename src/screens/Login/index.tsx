@@ -35,7 +35,7 @@ export const Login = () => {
 						</View>
 					</TouchableOpacity>
 
-					<TouchableOpacity className="mb-4 px-5 py-4 w-80 rounded-lg">
+					<TouchableOpacity onPress={() => navigation.navigate('Home')} className="mb-4 px-5 py-4 w-80 rounded-lg">
 						<View className='flex-row items-center justify-center'>
 							<Text className="text-white font-bold text-center underline">
 								Entrar sem efetuar login
