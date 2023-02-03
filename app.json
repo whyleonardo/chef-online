@@ -1,6 +1,6 @@
 {
 	"expo": {
-		"name": "chef-online",
+		"name": "Chef Online",
 		"slug": "chef-online",
 		"version": "1.0.0",
 		"orientation": "portrait",
@@ -22,12 +22,18 @@
 		},
 		"android": {
 			"adaptiveIcon": {
-				"foregroundImage": "./assets/adaptive-icon.png",
+				"foregroundImage": "./assets/icon.png",
 				"backgroundColor": "#F90716"
-			}
+			},
+			"package": "com.whyleonardo.chefonline"
 		},
 		"web": {
 			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "46ab77f7-41b8-4a31-9c5b-30e0dc5048ef"
+			}
 		}
 	}
 }

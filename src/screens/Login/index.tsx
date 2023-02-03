@@ -16,11 +16,19 @@ export const Login = () => {
 				<View className='items-center'>
 					<Image source={require(imageLogo)} className='text-green-500 mb-7' />
 					<TextInput className="bg-white mb-4 px-5 py-3 w-80 rounded-lg" placeholder="Email" />
-					<TextInput className="bg-white mb-12 px-5 py-3 w-80 rounded-lg" placeholder="Senha" />
+					<TextInput className="bg-white mb-4 px-5 py-3 w-80 rounded-lg" placeholder="Senha" secureTextEntry />
 
-					<TouchableOpacity className=" bg-brand-red mb-4 px-5 py-4 w-80 rounded-lg">
+					<TouchableOpacity className=" bg-brand-red mb-12 px-5 py-4 w-80 rounded-lg">
 						<View >
 							<Text className="text-white font-bold text-center" >
+								Login
+							</Text>
+						</View>
+					</TouchableOpacity>
+
+					<TouchableOpacity className=" bg-white mb-4 px-5 py-4 w-80 rounded-lg">
+						<View >
+							<Text className="text-brand-red font-bold text-center" >
 								Criar conta
 							</Text>
 						</View>
